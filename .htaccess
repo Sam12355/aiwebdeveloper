@@ -5,11 +5,16 @@ ServerSignature Off
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+# Serve .php when .html is requested (clean URL support)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)\.html$ $1.php [L,QSA]
+
 # Friendly admin URL
-RewriteRule ^my-admin/?$ my-admin/index.html [L]
+RewriteRule ^my-admin/?$ my-admin/index.php [L]
 
 # Sinhala version route
-RewriteRule ^sn/?$ sn/index.html [L]
+RewriteRule ^sn/?$ sn/index.php [L]
 
 # Block direct access to SQL, logs, env, backups, and config-like files
 RewriteRule (^|/)(\.env|composer\.(json|lock)|package(-lock)?\.json|yarn\.lock|webpack\.config\.js)$ - [F,L,NC]
