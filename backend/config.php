@@ -4,9 +4,9 @@
 declare(strict_types=1);
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'webdeveloper_local');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'webdeveloper_aiwebdeveloper');
+define('DB_USER', 'webdeveloper_aiwebdeveloper');
+define('DB_PASS', 'aiwebdeveloper12355');
 
 define('APP_URL', 'http://localhost/ecom');
 define('UPLOAD_DIR', __DIR__ . '/uploads/');
