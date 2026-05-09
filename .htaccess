@@ -1,0 +1,37 @@
+# Webdeveloper.lk V53 hardened Apache configuration
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Friendly admin URL
+RewriteRule ^my-admin/?$ my-admin/index.html [L]
+
+# Sinhala version route
+RewriteRule ^sn/?$ sn/index.html [L]
+
+# Block direct access to SQL, logs, env, backups, and config-like files
+RewriteRule (^|/)(\.env|composer\.(json|lock)|package(-lock)?\.json|yarn\.lock|webpack\.config\.js)$ - [F,L,NC]
+RewriteRule \.(sql|bak|backup|old|orig|save|swp|log|ini|sh|phar|phtml)$ - [F,L,NC]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=()"
+Header always set X-XSS-Protection "1; mode=block"
+Header set Content-Security-Policy "default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com data: blob:; img-src 'self' data: https: blob:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self' mailto:;"
+</IfModule>
+
+# Reduce MIME confusion
+AddType text/html .html
+AddType text/css .css
+AddType application/javascript .js
+
+# Protect sensitive file names
+<FilesMatch "(^\.|config\.php|database\.sql|schema\.sql|migration.*\.sql|README_DATABASE_FILES\.txt|FUNCTIONAL_AUDIT\.txt|.*_REPORT\.txt)$">
+  Require all denied
+</FilesMatch>

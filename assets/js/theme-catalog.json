@@ -1,0 +1,2422 @@
+{
+  "recommended": [
+    {
+      "id": "business-01",
+      "name": "Business Prime",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Clean \u2022 Professional \u2022 Modern",
+      "image": "assets/img/themes/business/business-01.svg"
+    },
+    {
+      "id": "corporate-01",
+      "name": "Corporate One",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Trusted \u2022 Professional \u2022 Clean",
+      "image": "assets/img/themes/corporate/corporate-01.svg"
+    },
+    {
+      "id": "ecommerce-01",
+      "name": "Shop Modern",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+      "image": "assets/img/themes/ecommerce/ecommerce-01.svg"
+    },
+    {
+      "id": "creative-01",
+      "name": "Creative Pulse",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Bold \u2022 Visual \u2022 Creative",
+      "image": "assets/img/themes/creative/creative-01.svg"
+    },
+    {
+      "id": "hospitality-01",
+      "name": "Hotel Luxury",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+      "image": "assets/img/themes/hospitality/hospitality-01.svg"
+    },
+    {
+      "id": "product-01",
+      "name": "Product Launch",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Modern \u2022 Feature Focused \u2022 Tech",
+      "image": "assets/img/themes/product/product-01.svg"
+    },
+    {
+      "id": "minimal-01",
+      "name": "Minimal White",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Clean \u2022 Elegant",
+      "image": "assets/img/themes/minimal/minimal-01.svg"
+    },
+    {
+      "id": "business-02",
+      "name": "Consulting Edge",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Trust \u2022 Strong \u2022 Service Focused",
+      "image": "assets/img/themes/business/business-02.svg"
+    },
+    {
+      "id": "corporate-02",
+      "name": "Boardroom Pro",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Formal \u2022 Strong \u2022 Modern",
+      "image": "assets/img/themes/corporate/corporate-02.svg"
+    },
+    {
+      "id": "ecommerce-02",
+      "name": "Storefront Pro",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Trendy \u2022 Product Focused \u2022 Modern",
+      "image": "assets/img/themes/ecommerce/ecommerce-02.svg"
+    },
+    {
+      "id": "creative-02",
+      "name": "Studio Light",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Colorful \u2022 Artistic \u2022 Modern",
+      "image": "assets/img/themes/creative/creative-02.svg"
+    },
+    {
+      "id": "hospitality-02",
+      "name": "Resort Calm",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Warm \u2022 Elegant \u2022 Hospitality",
+      "image": "assets/img/themes/hospitality/hospitality-02.svg"
+    },
+    {
+      "id": "product-02",
+      "name": "App Showcase",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Clean \u2022 Product \u2022 Conversion Ready",
+      "image": "assets/img/themes/product/product-02.svg"
+    },
+    {
+      "id": "minimal-02",
+      "name": "Clean Lines",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Simple \u2022 Spacious \u2022 Modern",
+      "image": "assets/img/themes/minimal/minimal-02.svg"
+    },
+    {
+      "id": "business-03",
+      "name": "Agency Focus",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Growth \u2022 Clear \u2022 Bold",
+      "image": "assets/img/themes/business/business-03.svg"
+    },
+    {
+      "id": "corporate-03",
+      "name": "Enterprise Line",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Executive \u2022 Polished \u2022 Reliable",
+      "image": "assets/img/themes/corporate/corporate-03.svg"
+    },
+    {
+      "id": "ecommerce-03",
+      "name": "Fashion Cart",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Shopping \u2022 Bright \u2022 Clean",
+      "image": "assets/img/themes/ecommerce/ecommerce-03.svg"
+    },
+    {
+      "id": "creative-03",
+      "name": "Design Loft",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+      "image": "assets/img/themes/creative/creative-03.svg"
+    },
+    {
+      "id": "hospitality-03",
+      "name": "Restaurant Signature",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Restaurant \u2022 Rich \u2022 Inviting",
+      "image": "assets/img/themes/hospitality/hospitality-03.svg"
+    },
+    {
+      "id": "product-03",
+      "name": "SaaS Focus",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "SaaS \u2022 Sharp \u2022 Minimal",
+      "image": "assets/img/themes/product/product-03.svg"
+    }
+  ],
+  "categories": {
+    "business": [
+      {
+        "id": "business-01",
+        "name": "Business Prime",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Clean \u2022 Professional \u2022 Modern",
+        "image": "assets/img/themes/business/business-01.svg"
+      },
+      {
+        "id": "business-02",
+        "name": "Consulting Edge",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Trust \u2022 Strong \u2022 Service Focused",
+        "image": "assets/img/themes/business/business-02.svg"
+      },
+      {
+        "id": "business-03",
+        "name": "Agency Focus",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Growth \u2022 Clear \u2022 Bold",
+        "image": "assets/img/themes/business/business-03.svg"
+      },
+      {
+        "id": "business-04",
+        "name": "Startup Spark",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Corporate Feel \u2022 Conversion Ready",
+        "image": "assets/img/themes/business/business-04.svg"
+      },
+      {
+        "id": "business-05",
+        "name": "Service Hub",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Fast \u2022 Friendly \u2022 Business Focused",
+        "image": "assets/img/themes/business/business-05.svg"
+      },
+      {
+        "id": "business-06",
+        "name": "Growth Vision",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Clean \u2022 Professional \u2022 Modern",
+        "image": "assets/img/themes/business/business-06.svg"
+      },
+      {
+        "id": "business-07",
+        "name": "Blue Office",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Trust \u2022 Strong \u2022 Service Focused",
+        "image": "assets/img/themes/business/business-07.svg"
+      },
+      {
+        "id": "business-08",
+        "name": "Business Smart",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Growth \u2022 Clear \u2022 Bold",
+        "image": "assets/img/themes/business/business-08.svg"
+      },
+      {
+        "id": "business-09",
+        "name": "Metro Business",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Corporate Feel \u2022 Conversion Ready",
+        "image": "assets/img/themes/business/business-09.svg"
+      },
+      {
+        "id": "business-10",
+        "name": "Client Connect",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Fast \u2022 Friendly \u2022 Business Focused",
+        "image": "assets/img/themes/business/business-10.svg"
+      },
+      {
+        "id": "business-11",
+        "name": "Executive Flow",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Clean \u2022 Professional \u2022 Modern",
+        "image": "assets/img/themes/business/business-11.svg"
+      },
+      {
+        "id": "business-12",
+        "name": "Finance Point",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Trust \u2022 Strong \u2022 Service Focused",
+        "image": "assets/img/themes/business/business-12.svg"
+      },
+      {
+        "id": "business-13",
+        "name": "Modern Agency",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Growth \u2022 Clear \u2022 Bold",
+        "image": "assets/img/themes/business/business-13.svg"
+      },
+      {
+        "id": "business-14",
+        "name": "Business Grid",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Corporate Feel \u2022 Conversion Ready",
+        "image": "assets/img/themes/business/business-14.svg"
+      },
+      {
+        "id": "business-15",
+        "name": "Lead Builder",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Fast \u2022 Friendly \u2022 Business Focused",
+        "image": "assets/img/themes/business/business-15.svg"
+      },
+      {
+        "id": "business-16",
+        "name": "Digital Office",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Clean \u2022 Professional \u2022 Modern",
+        "image": "assets/img/themes/business/business-16.svg"
+      },
+      {
+        "id": "business-17",
+        "name": "Pro Services",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Trust \u2022 Strong \u2022 Service Focused",
+        "image": "assets/img/themes/business/business-17.svg"
+      },
+      {
+        "id": "business-18",
+        "name": "Venture Space",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Growth \u2022 Clear \u2022 Bold",
+        "image": "assets/img/themes/business/business-18.svg"
+      },
+      {
+        "id": "business-19",
+        "name": "Business Studio",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Corporate Feel \u2022 Conversion Ready",
+        "image": "assets/img/themes/business/business-19.svg"
+      },
+      {
+        "id": "business-20",
+        "name": "Strategy Plus",
+        "category": "business",
+        "categoryLabel": "Business",
+        "style": "Fast \u2022 Friendly \u2022 Business Focused",
+        "image": "assets/img/themes/business/business-20.svg"
+      }
+    ],
+    "corporate": [
+      {
+        "id": "corporate-01",
+        "name": "Corporate One",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Trusted \u2022 Professional \u2022 Clean",
+        "image": "assets/img/themes/corporate/corporate-01.svg"
+      },
+      {
+        "id": "corporate-02",
+        "name": "Boardroom Pro",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Formal \u2022 Strong \u2022 Modern",
+        "image": "assets/img/themes/corporate/corporate-02.svg"
+      },
+      {
+        "id": "corporate-03",
+        "name": "Enterprise Line",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Executive \u2022 Polished \u2022 Reliable",
+        "image": "assets/img/themes/corporate/corporate-03.svg"
+      },
+      {
+        "id": "corporate-04",
+        "name": "Executive Class",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Corporate \u2022 High Trust \u2022 Clear",
+        "image": "assets/img/themes/corporate/corporate-04.svg"
+      },
+      {
+        "id": "corporate-05",
+        "name": "Office Elite",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Institutional \u2022 Sharp \u2022 Premium",
+        "image": "assets/img/themes/corporate/corporate-05.svg"
+      },
+      {
+        "id": "corporate-06",
+        "name": "Corporate Flow",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Trusted \u2022 Professional \u2022 Clean",
+        "image": "assets/img/themes/corporate/corporate-06.svg"
+      },
+      {
+        "id": "corporate-07",
+        "name": "Trust Capital",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Formal \u2022 Strong \u2022 Modern",
+        "image": "assets/img/themes/corporate/corporate-07.svg"
+      },
+      {
+        "id": "corporate-08",
+        "name": "Global Enterprise",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Executive \u2022 Polished \u2022 Reliable",
+        "image": "assets/img/themes/corporate/corporate-08.svg"
+      },
+      {
+        "id": "corporate-09",
+        "name": "Vision Corporate",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Corporate \u2022 High Trust \u2022 Clear",
+        "image": "assets/img/themes/corporate/corporate-09.svg"
+      },
+      {
+        "id": "corporate-10",
+        "name": "Blue Chamber",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Institutional \u2022 Sharp \u2022 Premium",
+        "image": "assets/img/themes/corporate/corporate-10.svg"
+      },
+      {
+        "id": "corporate-11",
+        "name": "Premier Corporate",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Trusted \u2022 Professional \u2022 Clean",
+        "image": "assets/img/themes/corporate/corporate-11.svg"
+      },
+      {
+        "id": "corporate-12",
+        "name": "Leadership Hub",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Formal \u2022 Strong \u2022 Modern",
+        "image": "assets/img/themes/corporate/corporate-12.svg"
+      },
+      {
+        "id": "corporate-13",
+        "name": "Business Formal",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Executive \u2022 Polished \u2022 Reliable",
+        "image": "assets/img/themes/corporate/corporate-13.svg"
+      },
+      {
+        "id": "corporate-14",
+        "name": "Corporate Matrix",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Corporate \u2022 High Trust \u2022 Clear",
+        "image": "assets/img/themes/corporate/corporate-14.svg"
+      },
+      {
+        "id": "corporate-15",
+        "name": "Smart Enterprise",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Institutional \u2022 Sharp \u2022 Premium",
+        "image": "assets/img/themes/corporate/corporate-15.svg"
+      },
+      {
+        "id": "corporate-16",
+        "name": "Corporate Nexus",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Trusted \u2022 Professional \u2022 Clean",
+        "image": "assets/img/themes/corporate/corporate-16.svg"
+      },
+      {
+        "id": "corporate-17",
+        "name": "Capital Grid",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Formal \u2022 Strong \u2022 Modern",
+        "image": "assets/img/themes/corporate/corporate-17.svg"
+      },
+      {
+        "id": "corporate-18",
+        "name": "Company Prestige",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Executive \u2022 Polished \u2022 Reliable",
+        "image": "assets/img/themes/corporate/corporate-18.svg"
+      },
+      {
+        "id": "corporate-19",
+        "name": "Office Signature",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Corporate \u2022 High Trust \u2022 Clear",
+        "image": "assets/img/themes/corporate/corporate-19.svg"
+      },
+      {
+        "id": "corporate-20",
+        "name": "Professional Core",
+        "category": "corporate",
+        "categoryLabel": "Corporate",
+        "style": "Institutional \u2022 Sharp \u2022 Premium",
+        "image": "assets/img/themes/corporate/corporate-20.svg"
+      }
+    ],
+    "ecommerce": [
+      {
+        "id": "ecommerce-01",
+        "name": "Shop Modern",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+        "image": "assets/img/themes/ecommerce/ecommerce-01.svg"
+      },
+      {
+        "id": "ecommerce-02",
+        "name": "Storefront Pro",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Trendy \u2022 Product Focused \u2022 Modern",
+        "image": "assets/img/themes/ecommerce/ecommerce-02.svg"
+      },
+      {
+        "id": "ecommerce-03",
+        "name": "Fashion Cart",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Shopping \u2022 Bright \u2022 Clean",
+        "image": "assets/img/themes/ecommerce/ecommerce-03.svg"
+      },
+      {
+        "id": "ecommerce-04",
+        "name": "Smart Commerce",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Catalog \u2022 Conversion Ready",
+        "image": "assets/img/themes/ecommerce/ecommerce-04.svg"
+      },
+      {
+        "id": "ecommerce-05",
+        "name": "Urban Shop",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+        "image": "assets/img/themes/ecommerce/ecommerce-05.svg"
+      },
+      {
+        "id": "ecommerce-06",
+        "name": "Retail Story",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+        "image": "assets/img/themes/ecommerce/ecommerce-06.svg"
+      },
+      {
+        "id": "ecommerce-07",
+        "name": "Beauty Boutique",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Trendy \u2022 Product Focused \u2022 Modern",
+        "image": "assets/img/themes/ecommerce/ecommerce-07.svg"
+      },
+      {
+        "id": "ecommerce-08",
+        "name": "Mega Store",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Shopping \u2022 Bright \u2022 Clean",
+        "image": "assets/img/themes/ecommerce/ecommerce-08.svg"
+      },
+      {
+        "id": "ecommerce-09",
+        "name": "Product Avenue",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Catalog \u2022 Conversion Ready",
+        "image": "assets/img/themes/ecommerce/ecommerce-09.svg"
+      },
+      {
+        "id": "ecommerce-10",
+        "name": "Trend Shop",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+        "image": "assets/img/themes/ecommerce/ecommerce-10.svg"
+      },
+      {
+        "id": "ecommerce-11",
+        "name": "Shopping Flow",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+        "image": "assets/img/themes/ecommerce/ecommerce-11.svg"
+      },
+      {
+        "id": "ecommerce-12",
+        "name": "Style Market",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Trendy \u2022 Product Focused \u2022 Modern",
+        "image": "assets/img/themes/ecommerce/ecommerce-12.svg"
+      },
+      {
+        "id": "ecommerce-13",
+        "name": "Cart Focus",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Shopping \u2022 Bright \u2022 Clean",
+        "image": "assets/img/themes/ecommerce/ecommerce-13.svg"
+      },
+      {
+        "id": "ecommerce-14",
+        "name": "Elegant Retail",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Catalog \u2022 Conversion Ready",
+        "image": "assets/img/themes/ecommerce/ecommerce-14.svg"
+      },
+      {
+        "id": "ecommerce-15",
+        "name": "Online Bazaar",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+        "image": "assets/img/themes/ecommerce/ecommerce-15.svg"
+      },
+      {
+        "id": "ecommerce-16",
+        "name": "Catalog Prime",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+        "image": "assets/img/themes/ecommerce/ecommerce-16.svg"
+      },
+      {
+        "id": "ecommerce-17",
+        "name": "Ecom Trend",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Trendy \u2022 Product Focused \u2022 Modern",
+        "image": "assets/img/themes/ecommerce/ecommerce-17.svg"
+      },
+      {
+        "id": "ecommerce-18",
+        "name": "Digital Store",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Shopping \u2022 Bright \u2022 Clean",
+        "image": "assets/img/themes/ecommerce/ecommerce-18.svg"
+      },
+      {
+        "id": "ecommerce-19",
+        "name": "Luxury Shop",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Catalog \u2022 Conversion Ready",
+        "image": "assets/img/themes/ecommerce/ecommerce-19.svg"
+      },
+      {
+        "id": "ecommerce-20",
+        "name": "Sales Builder",
+        "category": "ecommerce",
+        "categoryLabel": "Ecommerce",
+        "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+        "image": "assets/img/themes/ecommerce/ecommerce-20.svg"
+      }
+    ],
+    "creative": [
+      {
+        "id": "creative-01",
+        "name": "Creative Pulse",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Bold \u2022 Visual \u2022 Creative",
+        "image": "assets/img/themes/creative/creative-01.svg"
+      },
+      {
+        "id": "creative-02",
+        "name": "Studio Light",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Colorful \u2022 Artistic \u2022 Modern",
+        "image": "assets/img/themes/creative/creative-02.svg"
+      },
+      {
+        "id": "creative-03",
+        "name": "Design Loft",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+        "image": "assets/img/themes/creative/creative-03.svg"
+      },
+      {
+        "id": "creative-04",
+        "name": "Portfolio Wave",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Studio \u2022 Clean \u2022 Expressive",
+        "image": "assets/img/themes/creative/creative-04.svg"
+      },
+      {
+        "id": "creative-05",
+        "name": "Visual Story",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+        "image": "assets/img/themes/creative/creative-05.svg"
+      },
+      {
+        "id": "creative-06",
+        "name": "Art District",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Bold \u2022 Visual \u2022 Creative",
+        "image": "assets/img/themes/creative/creative-06.svg"
+      },
+      {
+        "id": "creative-07",
+        "name": "Creative Craft",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Colorful \u2022 Artistic \u2022 Modern",
+        "image": "assets/img/themes/creative/creative-07.svg"
+      },
+      {
+        "id": "creative-08",
+        "name": "Motion Studio",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+        "image": "assets/img/themes/creative/creative-08.svg"
+      },
+      {
+        "id": "creative-09",
+        "name": "Color Space",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Studio \u2022 Clean \u2022 Expressive",
+        "image": "assets/img/themes/creative/creative-09.svg"
+      },
+      {
+        "id": "creative-10",
+        "name": "Inspire Lab",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+        "image": "assets/img/themes/creative/creative-10.svg"
+      },
+      {
+        "id": "creative-11",
+        "name": "Artist Flow",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Bold \u2022 Visual \u2022 Creative",
+        "image": "assets/img/themes/creative/creative-11.svg"
+      },
+      {
+        "id": "creative-12",
+        "name": "Creative Spark",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Colorful \u2022 Artistic \u2022 Modern",
+        "image": "assets/img/themes/creative/creative-12.svg"
+      },
+      {
+        "id": "creative-13",
+        "name": "Media House",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+        "image": "assets/img/themes/creative/creative-13.svg"
+      },
+      {
+        "id": "creative-14",
+        "name": "Brand Canvas",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Studio \u2022 Clean \u2022 Expressive",
+        "image": "assets/img/themes/creative/creative-14.svg"
+      },
+      {
+        "id": "creative-15",
+        "name": "Creative Grid",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+        "image": "assets/img/themes/creative/creative-15.svg"
+      },
+      {
+        "id": "creative-16",
+        "name": "Studio Prime",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Bold \u2022 Visual \u2022 Creative",
+        "image": "assets/img/themes/creative/creative-16.svg"
+      },
+      {
+        "id": "creative-17",
+        "name": "Dynamic Portfolio",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Colorful \u2022 Artistic \u2022 Modern",
+        "image": "assets/img/themes/creative/creative-17.svg"
+      },
+      {
+        "id": "creative-18",
+        "name": "Creative Avenue",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+        "image": "assets/img/themes/creative/creative-18.svg"
+      },
+      {
+        "id": "creative-19",
+        "name": "Pixel Story",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Studio \u2022 Clean \u2022 Expressive",
+        "image": "assets/img/themes/creative/creative-19.svg"
+      },
+      {
+        "id": "creative-20",
+        "name": "Bold Identity",
+        "category": "creative",
+        "categoryLabel": "Creative",
+        "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+        "image": "assets/img/themes/creative/creative-20.svg"
+      }
+    ],
+    "hospitality": [
+      {
+        "id": "hospitality-01",
+        "name": "Hotel Luxury",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+        "image": "assets/img/themes/hospitality/hospitality-01.svg"
+      },
+      {
+        "id": "hospitality-02",
+        "name": "Resort Calm",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Warm \u2022 Elegant \u2022 Hospitality",
+        "image": "assets/img/themes/hospitality/hospitality-02.svg"
+      },
+      {
+        "id": "hospitality-03",
+        "name": "Restaurant Signature",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Restaurant \u2022 Rich \u2022 Inviting",
+        "image": "assets/img/themes/hospitality/hospitality-03.svg"
+      },
+      {
+        "id": "hospitality-04",
+        "name": "Cafe Aroma",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Resort \u2022 Premium \u2022 Clean",
+        "image": "assets/img/themes/hospitality/hospitality-04.svg"
+      },
+      {
+        "id": "hospitality-05",
+        "name": "Villa Escape",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+        "image": "assets/img/themes/hospitality/hospitality-05.svg"
+      },
+      {
+        "id": "hospitality-06",
+        "name": "Food Garden",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+        "image": "assets/img/themes/hospitality/hospitality-06.svg"
+      },
+      {
+        "id": "hospitality-07",
+        "name": "Boutique Stay",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Warm \u2022 Elegant \u2022 Hospitality",
+        "image": "assets/img/themes/hospitality/hospitality-07.svg"
+      },
+      {
+        "id": "hospitality-08",
+        "name": "Hospitality Elite",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Restaurant \u2022 Rich \u2022 Inviting",
+        "image": "assets/img/themes/hospitality/hospitality-08.svg"
+      },
+      {
+        "id": "hospitality-09",
+        "name": "Coastal Stay",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Resort \u2022 Premium \u2022 Clean",
+        "image": "assets/img/themes/hospitality/hospitality-09.svg"
+      },
+      {
+        "id": "hospitality-10",
+        "name": "Dining Table",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+        "image": "assets/img/themes/hospitality/hospitality-10.svg"
+      },
+      {
+        "id": "hospitality-11",
+        "name": "Travel Inn",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+        "image": "assets/img/themes/hospitality/hospitality-11.svg"
+      },
+      {
+        "id": "hospitality-12",
+        "name": "Seaside Villa",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Warm \u2022 Elegant \u2022 Hospitality",
+        "image": "assets/img/themes/hospitality/hospitality-12.svg"
+      },
+      {
+        "id": "hospitality-13",
+        "name": "Bistro Line",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Restaurant \u2022 Rich \u2022 Inviting",
+        "image": "assets/img/themes/hospitality/hospitality-13.svg"
+      },
+      {
+        "id": "hospitality-14",
+        "name": "Kitchen Story",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Resort \u2022 Premium \u2022 Clean",
+        "image": "assets/img/themes/hospitality/hospitality-14.svg"
+      },
+      {
+        "id": "hospitality-15",
+        "name": "Lounge Premium",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+        "image": "assets/img/themes/hospitality/hospitality-15.svg"
+      },
+      {
+        "id": "hospitality-16",
+        "name": "Hotel Vista",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+        "image": "assets/img/themes/hospitality/hospitality-16.svg"
+      },
+      {
+        "id": "hospitality-17",
+        "name": "Chef Special",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Warm \u2022 Elegant \u2022 Hospitality",
+        "image": "assets/img/themes/hospitality/hospitality-17.svg"
+      },
+      {
+        "id": "hospitality-18",
+        "name": "Resort Bloom",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Restaurant \u2022 Rich \u2022 Inviting",
+        "image": "assets/img/themes/hospitality/hospitality-18.svg"
+      },
+      {
+        "id": "hospitality-19",
+        "name": "Guest House",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Resort \u2022 Premium \u2022 Clean",
+        "image": "assets/img/themes/hospitality/hospitality-19.svg"
+      },
+      {
+        "id": "hospitality-20",
+        "name": "Fine Dining",
+        "category": "hospitality",
+        "categoryLabel": "Hotel / Food",
+        "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+        "image": "assets/img/themes/hospitality/hospitality-20.svg"
+      }
+    ],
+    "product": [
+      {
+        "id": "product-01",
+        "name": "Product Launch",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Modern \u2022 Feature Focused \u2022 Tech",
+        "image": "assets/img/themes/product/product-01.svg"
+      },
+      {
+        "id": "product-02",
+        "name": "App Showcase",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Clean \u2022 Product \u2022 Conversion Ready",
+        "image": "assets/img/themes/product/product-02.svg"
+      },
+      {
+        "id": "product-03",
+        "name": "SaaS Focus",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "SaaS \u2022 Sharp \u2022 Minimal",
+        "image": "assets/img/themes/product/product-03.svg"
+      },
+      {
+        "id": "product-04",
+        "name": "Tech Product",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Launch \u2022 Smart \u2022 Professional",
+        "image": "assets/img/themes/product/product-04.svg"
+      },
+      {
+        "id": "product-05",
+        "name": "Gadget View",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+        "image": "assets/img/themes/product/product-05.svg"
+      },
+      {
+        "id": "product-06",
+        "name": "Software Pro",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Modern \u2022 Feature Focused \u2022 Tech",
+        "image": "assets/img/themes/product/product-06.svg"
+      },
+      {
+        "id": "product-07",
+        "name": "Feature Story",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Clean \u2022 Product \u2022 Conversion Ready",
+        "image": "assets/img/themes/product/product-07.svg"
+      },
+      {
+        "id": "product-08",
+        "name": "Product Flow",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "SaaS \u2022 Sharp \u2022 Minimal",
+        "image": "assets/img/themes/product/product-08.svg"
+      },
+      {
+        "id": "product-09",
+        "name": "Launch Page",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Launch \u2022 Smart \u2022 Professional",
+        "image": "assets/img/themes/product/product-09.svg"
+      },
+      {
+        "id": "product-10",
+        "name": "Smart App",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+        "image": "assets/img/themes/product/product-10.svg"
+      },
+      {
+        "id": "product-11",
+        "name": "Product Edge",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Modern \u2022 Feature Focused \u2022 Tech",
+        "image": "assets/img/themes/product/product-11.svg"
+      },
+      {
+        "id": "product-12",
+        "name": "Cloud Platform",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Clean \u2022 Product \u2022 Conversion Ready",
+        "image": "assets/img/themes/product/product-12.svg"
+      },
+      {
+        "id": "product-13",
+        "name": "Solution Demo",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "SaaS \u2022 Sharp \u2022 Minimal",
+        "image": "assets/img/themes/product/product-13.svg"
+      },
+      {
+        "id": "product-14",
+        "name": "Device Landing",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Launch \u2022 Smart \u2022 Professional",
+        "image": "assets/img/themes/product/product-14.svg"
+      },
+      {
+        "id": "product-15",
+        "name": "Tool Showcase",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+        "image": "assets/img/themes/product/product-15.svg"
+      },
+      {
+        "id": "product-16",
+        "name": "App Vision",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Modern \u2022 Feature Focused \u2022 Tech",
+        "image": "assets/img/themes/product/product-16.svg"
+      },
+      {
+        "id": "product-17",
+        "name": "Feature Stack",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Clean \u2022 Product \u2022 Conversion Ready",
+        "image": "assets/img/themes/product/product-17.svg"
+      },
+      {
+        "id": "product-18",
+        "name": "Product Vision",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "SaaS \u2022 Sharp \u2022 Minimal",
+        "image": "assets/img/themes/product/product-18.svg"
+      },
+      {
+        "id": "product-19",
+        "name": "Launch Studio",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Launch \u2022 Smart \u2022 Professional",
+        "image": "assets/img/themes/product/product-19.svg"
+      },
+      {
+        "id": "product-20",
+        "name": "Modern SaaS",
+        "category": "product",
+        "categoryLabel": "Product",
+        "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+        "image": "assets/img/themes/product/product-20.svg"
+      }
+    ],
+    "minimal": [
+      {
+        "id": "minimal-01",
+        "name": "Minimal White",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Clean \u2022 Elegant",
+        "image": "assets/img/themes/minimal/minimal-01.svg"
+      },
+      {
+        "id": "minimal-02",
+        "name": "Clean Lines",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Simple \u2022 Spacious \u2022 Modern",
+        "image": "assets/img/themes/minimal/minimal-02.svg"
+      },
+      {
+        "id": "minimal-03",
+        "name": "Simple Studio",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Neutral \u2022 Quiet \u2022 Professional",
+        "image": "assets/img/themes/minimal/minimal-03.svg"
+      },
+      {
+        "id": "minimal-04",
+        "name": "Mono Style",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Premium \u2022 Focused",
+        "image": "assets/img/themes/minimal/minimal-04.svg"
+      },
+      {
+        "id": "minimal-05",
+        "name": "Blank Space",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Clean \u2022 White Space \u2022 Stylish",
+        "image": "assets/img/themes/minimal/minimal-05.svg"
+      },
+      {
+        "id": "minimal-06",
+        "name": "Neutral Frame",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Clean \u2022 Elegant",
+        "image": "assets/img/themes/minimal/minimal-06.svg"
+      },
+      {
+        "id": "minimal-07",
+        "name": "Minimal Prime",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Simple \u2022 Spacious \u2022 Modern",
+        "image": "assets/img/themes/minimal/minimal-07.svg"
+      },
+      {
+        "id": "minimal-08",
+        "name": "Quiet Design",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Neutral \u2022 Quiet \u2022 Professional",
+        "image": "assets/img/themes/minimal/minimal-08.svg"
+      },
+      {
+        "id": "minimal-09",
+        "name": "Soft Minimal",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Premium \u2022 Focused",
+        "image": "assets/img/themes/minimal/minimal-09.svg"
+      },
+      {
+        "id": "minimal-10",
+        "name": "Essential Layout",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Clean \u2022 White Space \u2022 Stylish",
+        "image": "assets/img/themes/minimal/minimal-10.svg"
+      },
+      {
+        "id": "minimal-11",
+        "name": "Linear View",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Clean \u2022 Elegant",
+        "image": "assets/img/themes/minimal/minimal-11.svg"
+      },
+      {
+        "id": "minimal-12",
+        "name": "Minimal Focus",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Simple \u2022 Spacious \u2022 Modern",
+        "image": "assets/img/themes/minimal/minimal-12.svg"
+      },
+      {
+        "id": "minimal-13",
+        "name": "Gentle Grid",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Neutral \u2022 Quiet \u2022 Professional",
+        "image": "assets/img/themes/minimal/minimal-13.svg"
+      },
+      {
+        "id": "minimal-14",
+        "name": "Pure Design",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Premium \u2022 Focused",
+        "image": "assets/img/themes/minimal/minimal-14.svg"
+      },
+      {
+        "id": "minimal-15",
+        "name": "Minimal Trust",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Clean \u2022 White Space \u2022 Stylish",
+        "image": "assets/img/themes/minimal/minimal-15.svg"
+      },
+      {
+        "id": "minimal-16",
+        "name": "Simple Business",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Clean \u2022 Elegant",
+        "image": "assets/img/themes/minimal/minimal-16.svg"
+      },
+      {
+        "id": "minimal-17",
+        "name": "Open Space",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Simple \u2022 Spacious \u2022 Modern",
+        "image": "assets/img/themes/minimal/minimal-17.svg"
+      },
+      {
+        "id": "minimal-18",
+        "name": "Clean Horizon",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Neutral \u2022 Quiet \u2022 Professional",
+        "image": "assets/img/themes/minimal/minimal-18.svg"
+      },
+      {
+        "id": "minimal-19",
+        "name": "Soft Corporate",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Minimal \u2022 Premium \u2022 Focused",
+        "image": "assets/img/themes/minimal/minimal-19.svg"
+      },
+      {
+        "id": "minimal-20",
+        "name": "Neutral Story",
+        "category": "minimal",
+        "categoryLabel": "Minimal",
+        "style": "Clean \u2022 White Space \u2022 Stylish",
+        "image": "assets/img/themes/minimal/minimal-20.svg"
+      }
+    ]
+  },
+  "all": [
+    {
+      "id": "business-01",
+      "name": "Business Prime",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Clean \u2022 Professional \u2022 Modern",
+      "image": "assets/img/themes/business/business-01.svg"
+    },
+    {
+      "id": "business-02",
+      "name": "Consulting Edge",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Trust \u2022 Strong \u2022 Service Focused",
+      "image": "assets/img/themes/business/business-02.svg"
+    },
+    {
+      "id": "business-03",
+      "name": "Agency Focus",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Growth \u2022 Clear \u2022 Bold",
+      "image": "assets/img/themes/business/business-03.svg"
+    },
+    {
+      "id": "business-04",
+      "name": "Startup Spark",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Corporate Feel \u2022 Conversion Ready",
+      "image": "assets/img/themes/business/business-04.svg"
+    },
+    {
+      "id": "business-05",
+      "name": "Service Hub",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Fast \u2022 Friendly \u2022 Business Focused",
+      "image": "assets/img/themes/business/business-05.svg"
+    },
+    {
+      "id": "business-06",
+      "name": "Growth Vision",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Clean \u2022 Professional \u2022 Modern",
+      "image": "assets/img/themes/business/business-06.svg"
+    },
+    {
+      "id": "business-07",
+      "name": "Blue Office",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Trust \u2022 Strong \u2022 Service Focused",
+      "image": "assets/img/themes/business/business-07.svg"
+    },
+    {
+      "id": "business-08",
+      "name": "Business Smart",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Growth \u2022 Clear \u2022 Bold",
+      "image": "assets/img/themes/business/business-08.svg"
+    },
+    {
+      "id": "business-09",
+      "name": "Metro Business",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Corporate Feel \u2022 Conversion Ready",
+      "image": "assets/img/themes/business/business-09.svg"
+    },
+    {
+      "id": "business-10",
+      "name": "Client Connect",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Fast \u2022 Friendly \u2022 Business Focused",
+      "image": "assets/img/themes/business/business-10.svg"
+    },
+    {
+      "id": "business-11",
+      "name": "Executive Flow",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Clean \u2022 Professional \u2022 Modern",
+      "image": "assets/img/themes/business/business-11.svg"
+    },
+    {
+      "id": "business-12",
+      "name": "Finance Point",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Trust \u2022 Strong \u2022 Service Focused",
+      "image": "assets/img/themes/business/business-12.svg"
+    },
+    {
+      "id": "business-13",
+      "name": "Modern Agency",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Growth \u2022 Clear \u2022 Bold",
+      "image": "assets/img/themes/business/business-13.svg"
+    },
+    {
+      "id": "business-14",
+      "name": "Business Grid",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Corporate Feel \u2022 Conversion Ready",
+      "image": "assets/img/themes/business/business-14.svg"
+    },
+    {
+      "id": "business-15",
+      "name": "Lead Builder",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Fast \u2022 Friendly \u2022 Business Focused",
+      "image": "assets/img/themes/business/business-15.svg"
+    },
+    {
+      "id": "business-16",
+      "name": "Digital Office",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Clean \u2022 Professional \u2022 Modern",
+      "image": "assets/img/themes/business/business-16.svg"
+    },
+    {
+      "id": "business-17",
+      "name": "Pro Services",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Trust \u2022 Strong \u2022 Service Focused",
+      "image": "assets/img/themes/business/business-17.svg"
+    },
+    {
+      "id": "business-18",
+      "name": "Venture Space",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Growth \u2022 Clear \u2022 Bold",
+      "image": "assets/img/themes/business/business-18.svg"
+    },
+    {
+      "id": "business-19",
+      "name": "Business Studio",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Corporate Feel \u2022 Conversion Ready",
+      "image": "assets/img/themes/business/business-19.svg"
+    },
+    {
+      "id": "business-20",
+      "name": "Strategy Plus",
+      "category": "business",
+      "categoryLabel": "Business",
+      "style": "Fast \u2022 Friendly \u2022 Business Focused",
+      "image": "assets/img/themes/business/business-20.svg"
+    },
+    {
+      "id": "corporate-01",
+      "name": "Corporate One",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Trusted \u2022 Professional \u2022 Clean",
+      "image": "assets/img/themes/corporate/corporate-01.svg"
+    },
+    {
+      "id": "corporate-02",
+      "name": "Boardroom Pro",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Formal \u2022 Strong \u2022 Modern",
+      "image": "assets/img/themes/corporate/corporate-02.svg"
+    },
+    {
+      "id": "corporate-03",
+      "name": "Enterprise Line",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Executive \u2022 Polished \u2022 Reliable",
+      "image": "assets/img/themes/corporate/corporate-03.svg"
+    },
+    {
+      "id": "corporate-04",
+      "name": "Executive Class",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Corporate \u2022 High Trust \u2022 Clear",
+      "image": "assets/img/themes/corporate/corporate-04.svg"
+    },
+    {
+      "id": "corporate-05",
+      "name": "Office Elite",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Institutional \u2022 Sharp \u2022 Premium",
+      "image": "assets/img/themes/corporate/corporate-05.svg"
+    },
+    {
+      "id": "corporate-06",
+      "name": "Corporate Flow",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Trusted \u2022 Professional \u2022 Clean",
+      "image": "assets/img/themes/corporate/corporate-06.svg"
+    },
+    {
+      "id": "corporate-07",
+      "name": "Trust Capital",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Formal \u2022 Strong \u2022 Modern",
+      "image": "assets/img/themes/corporate/corporate-07.svg"
+    },
+    {
+      "id": "corporate-08",
+      "name": "Global Enterprise",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Executive \u2022 Polished \u2022 Reliable",
+      "image": "assets/img/themes/corporate/corporate-08.svg"
+    },
+    {
+      "id": "corporate-09",
+      "name": "Vision Corporate",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Corporate \u2022 High Trust \u2022 Clear",
+      "image": "assets/img/themes/corporate/corporate-09.svg"
+    },
+    {
+      "id": "corporate-10",
+      "name": "Blue Chamber",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Institutional \u2022 Sharp \u2022 Premium",
+      "image": "assets/img/themes/corporate/corporate-10.svg"
+    },
+    {
+      "id": "corporate-11",
+      "name": "Premier Corporate",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Trusted \u2022 Professional \u2022 Clean",
+      "image": "assets/img/themes/corporate/corporate-11.svg"
+    },
+    {
+      "id": "corporate-12",
+      "name": "Leadership Hub",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Formal \u2022 Strong \u2022 Modern",
+      "image": "assets/img/themes/corporate/corporate-12.svg"
+    },
+    {
+      "id": "corporate-13",
+      "name": "Business Formal",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Executive \u2022 Polished \u2022 Reliable",
+      "image": "assets/img/themes/corporate/corporate-13.svg"
+    },
+    {
+      "id": "corporate-14",
+      "name": "Corporate Matrix",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Corporate \u2022 High Trust \u2022 Clear",
+      "image": "assets/img/themes/corporate/corporate-14.svg"
+    },
+    {
+      "id": "corporate-15",
+      "name": "Smart Enterprise",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Institutional \u2022 Sharp \u2022 Premium",
+      "image": "assets/img/themes/corporate/corporate-15.svg"
+    },
+    {
+      "id": "corporate-16",
+      "name": "Corporate Nexus",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Trusted \u2022 Professional \u2022 Clean",
+      "image": "assets/img/themes/corporate/corporate-16.svg"
+    },
+    {
+      "id": "corporate-17",
+      "name": "Capital Grid",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Formal \u2022 Strong \u2022 Modern",
+      "image": "assets/img/themes/corporate/corporate-17.svg"
+    },
+    {
+      "id": "corporate-18",
+      "name": "Company Prestige",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Executive \u2022 Polished \u2022 Reliable",
+      "image": "assets/img/themes/corporate/corporate-18.svg"
+    },
+    {
+      "id": "corporate-19",
+      "name": "Office Signature",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Corporate \u2022 High Trust \u2022 Clear",
+      "image": "assets/img/themes/corporate/corporate-19.svg"
+    },
+    {
+      "id": "corporate-20",
+      "name": "Professional Core",
+      "category": "corporate",
+      "categoryLabel": "Corporate",
+      "style": "Institutional \u2022 Sharp \u2022 Premium",
+      "image": "assets/img/themes/corporate/corporate-20.svg"
+    },
+    {
+      "id": "ecommerce-01",
+      "name": "Shop Modern",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+      "image": "assets/img/themes/ecommerce/ecommerce-01.svg"
+    },
+    {
+      "id": "ecommerce-02",
+      "name": "Storefront Pro",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Trendy \u2022 Product Focused \u2022 Modern",
+      "image": "assets/img/themes/ecommerce/ecommerce-02.svg"
+    },
+    {
+      "id": "ecommerce-03",
+      "name": "Fashion Cart",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Shopping \u2022 Bright \u2022 Clean",
+      "image": "assets/img/themes/ecommerce/ecommerce-03.svg"
+    },
+    {
+      "id": "ecommerce-04",
+      "name": "Smart Commerce",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Catalog \u2022 Conversion Ready",
+      "image": "assets/img/themes/ecommerce/ecommerce-04.svg"
+    },
+    {
+      "id": "ecommerce-05",
+      "name": "Urban Shop",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+      "image": "assets/img/themes/ecommerce/ecommerce-05.svg"
+    },
+    {
+      "id": "ecommerce-06",
+      "name": "Retail Story",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+      "image": "assets/img/themes/ecommerce/ecommerce-06.svg"
+    },
+    {
+      "id": "ecommerce-07",
+      "name": "Beauty Boutique",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Trendy \u2022 Product Focused \u2022 Modern",
+      "image": "assets/img/themes/ecommerce/ecommerce-07.svg"
+    },
+    {
+      "id": "ecommerce-08",
+      "name": "Mega Store",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Shopping \u2022 Bright \u2022 Clean",
+      "image": "assets/img/themes/ecommerce/ecommerce-08.svg"
+    },
+    {
+      "id": "ecommerce-09",
+      "name": "Product Avenue",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Catalog \u2022 Conversion Ready",
+      "image": "assets/img/themes/ecommerce/ecommerce-09.svg"
+    },
+    {
+      "id": "ecommerce-10",
+      "name": "Trend Shop",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+      "image": "assets/img/themes/ecommerce/ecommerce-10.svg"
+    },
+    {
+      "id": "ecommerce-11",
+      "name": "Shopping Flow",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+      "image": "assets/img/themes/ecommerce/ecommerce-11.svg"
+    },
+    {
+      "id": "ecommerce-12",
+      "name": "Style Market",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Trendy \u2022 Product Focused \u2022 Modern",
+      "image": "assets/img/themes/ecommerce/ecommerce-12.svg"
+    },
+    {
+      "id": "ecommerce-13",
+      "name": "Cart Focus",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Shopping \u2022 Bright \u2022 Clean",
+      "image": "assets/img/themes/ecommerce/ecommerce-13.svg"
+    },
+    {
+      "id": "ecommerce-14",
+      "name": "Elegant Retail",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Catalog \u2022 Conversion Ready",
+      "image": "assets/img/themes/ecommerce/ecommerce-14.svg"
+    },
+    {
+      "id": "ecommerce-15",
+      "name": "Online Bazaar",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+      "image": "assets/img/themes/ecommerce/ecommerce-15.svg"
+    },
+    {
+      "id": "ecommerce-16",
+      "name": "Catalog Prime",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Sales \u2022 Stylish \u2022 Ecommerce",
+      "image": "assets/img/themes/ecommerce/ecommerce-16.svg"
+    },
+    {
+      "id": "ecommerce-17",
+      "name": "Ecom Trend",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Trendy \u2022 Product Focused \u2022 Modern",
+      "image": "assets/img/themes/ecommerce/ecommerce-17.svg"
+    },
+    {
+      "id": "ecommerce-18",
+      "name": "Digital Store",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Shopping \u2022 Bright \u2022 Clean",
+      "image": "assets/img/themes/ecommerce/ecommerce-18.svg"
+    },
+    {
+      "id": "ecommerce-19",
+      "name": "Luxury Shop",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Catalog \u2022 Conversion Ready",
+      "image": "assets/img/themes/ecommerce/ecommerce-19.svg"
+    },
+    {
+      "id": "ecommerce-20",
+      "name": "Sales Builder",
+      "category": "ecommerce",
+      "categoryLabel": "Ecommerce",
+      "style": "Retail \u2022 Bold \u2022 Mobile Friendly",
+      "image": "assets/img/themes/ecommerce/ecommerce-20.svg"
+    },
+    {
+      "id": "creative-01",
+      "name": "Creative Pulse",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Bold \u2022 Visual \u2022 Creative",
+      "image": "assets/img/themes/creative/creative-01.svg"
+    },
+    {
+      "id": "creative-02",
+      "name": "Studio Light",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Colorful \u2022 Artistic \u2022 Modern",
+      "image": "assets/img/themes/creative/creative-02.svg"
+    },
+    {
+      "id": "creative-03",
+      "name": "Design Loft",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+      "image": "assets/img/themes/creative/creative-03.svg"
+    },
+    {
+      "id": "creative-04",
+      "name": "Portfolio Wave",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Studio \u2022 Clean \u2022 Expressive",
+      "image": "assets/img/themes/creative/creative-04.svg"
+    },
+    {
+      "id": "creative-05",
+      "name": "Visual Story",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+      "image": "assets/img/themes/creative/creative-05.svg"
+    },
+    {
+      "id": "creative-06",
+      "name": "Art District",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Bold \u2022 Visual \u2022 Creative",
+      "image": "assets/img/themes/creative/creative-06.svg"
+    },
+    {
+      "id": "creative-07",
+      "name": "Creative Craft",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Colorful \u2022 Artistic \u2022 Modern",
+      "image": "assets/img/themes/creative/creative-07.svg"
+    },
+    {
+      "id": "creative-08",
+      "name": "Motion Studio",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+      "image": "assets/img/themes/creative/creative-08.svg"
+    },
+    {
+      "id": "creative-09",
+      "name": "Color Space",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Studio \u2022 Clean \u2022 Expressive",
+      "image": "assets/img/themes/creative/creative-09.svg"
+    },
+    {
+      "id": "creative-10",
+      "name": "Inspire Lab",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+      "image": "assets/img/themes/creative/creative-10.svg"
+    },
+    {
+      "id": "creative-11",
+      "name": "Artist Flow",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Bold \u2022 Visual \u2022 Creative",
+      "image": "assets/img/themes/creative/creative-11.svg"
+    },
+    {
+      "id": "creative-12",
+      "name": "Creative Spark",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Colorful \u2022 Artistic \u2022 Modern",
+      "image": "assets/img/themes/creative/creative-12.svg"
+    },
+    {
+      "id": "creative-13",
+      "name": "Media House",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+      "image": "assets/img/themes/creative/creative-13.svg"
+    },
+    {
+      "id": "creative-14",
+      "name": "Brand Canvas",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Studio \u2022 Clean \u2022 Expressive",
+      "image": "assets/img/themes/creative/creative-14.svg"
+    },
+    {
+      "id": "creative-15",
+      "name": "Creative Grid",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+      "image": "assets/img/themes/creative/creative-15.svg"
+    },
+    {
+      "id": "creative-16",
+      "name": "Studio Prime",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Bold \u2022 Visual \u2022 Creative",
+      "image": "assets/img/themes/creative/creative-16.svg"
+    },
+    {
+      "id": "creative-17",
+      "name": "Dynamic Portfolio",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Colorful \u2022 Artistic \u2022 Modern",
+      "image": "assets/img/themes/creative/creative-17.svg"
+    },
+    {
+      "id": "creative-18",
+      "name": "Creative Avenue",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Portfolio \u2022 Dynamic \u2022 Fresh",
+      "image": "assets/img/themes/creative/creative-18.svg"
+    },
+    {
+      "id": "creative-19",
+      "name": "Pixel Story",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Studio \u2022 Clean \u2022 Expressive",
+      "image": "assets/img/themes/creative/creative-19.svg"
+    },
+    {
+      "id": "creative-20",
+      "name": "Bold Identity",
+      "category": "creative",
+      "categoryLabel": "Creative",
+      "style": "Creative \u2022 Eye Catching \u2022 Stylish",
+      "image": "assets/img/themes/creative/creative-20.svg"
+    },
+    {
+      "id": "hospitality-01",
+      "name": "Hotel Luxury",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+      "image": "assets/img/themes/hospitality/hospitality-01.svg"
+    },
+    {
+      "id": "hospitality-02",
+      "name": "Resort Calm",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Warm \u2022 Elegant \u2022 Hospitality",
+      "image": "assets/img/themes/hospitality/hospitality-02.svg"
+    },
+    {
+      "id": "hospitality-03",
+      "name": "Restaurant Signature",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Restaurant \u2022 Rich \u2022 Inviting",
+      "image": "assets/img/themes/hospitality/hospitality-03.svg"
+    },
+    {
+      "id": "hospitality-04",
+      "name": "Cafe Aroma",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Resort \u2022 Premium \u2022 Clean",
+      "image": "assets/img/themes/hospitality/hospitality-04.svg"
+    },
+    {
+      "id": "hospitality-05",
+      "name": "Villa Escape",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+      "image": "assets/img/themes/hospitality/hospitality-05.svg"
+    },
+    {
+      "id": "hospitality-06",
+      "name": "Food Garden",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+      "image": "assets/img/themes/hospitality/hospitality-06.svg"
+    },
+    {
+      "id": "hospitality-07",
+      "name": "Boutique Stay",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Warm \u2022 Elegant \u2022 Hospitality",
+      "image": "assets/img/themes/hospitality/hospitality-07.svg"
+    },
+    {
+      "id": "hospitality-08",
+      "name": "Hospitality Elite",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Restaurant \u2022 Rich \u2022 Inviting",
+      "image": "assets/img/themes/hospitality/hospitality-08.svg"
+    },
+    {
+      "id": "hospitality-09",
+      "name": "Coastal Stay",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Resort \u2022 Premium \u2022 Clean",
+      "image": "assets/img/themes/hospitality/hospitality-09.svg"
+    },
+    {
+      "id": "hospitality-10",
+      "name": "Dining Table",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+      "image": "assets/img/themes/hospitality/hospitality-10.svg"
+    },
+    {
+      "id": "hospitality-11",
+      "name": "Travel Inn",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+      "image": "assets/img/themes/hospitality/hospitality-11.svg"
+    },
+    {
+      "id": "hospitality-12",
+      "name": "Seaside Villa",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Warm \u2022 Elegant \u2022 Hospitality",
+      "image": "assets/img/themes/hospitality/hospitality-12.svg"
+    },
+    {
+      "id": "hospitality-13",
+      "name": "Bistro Line",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Restaurant \u2022 Rich \u2022 Inviting",
+      "image": "assets/img/themes/hospitality/hospitality-13.svg"
+    },
+    {
+      "id": "hospitality-14",
+      "name": "Kitchen Story",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Resort \u2022 Premium \u2022 Clean",
+      "image": "assets/img/themes/hospitality/hospitality-14.svg"
+    },
+    {
+      "id": "hospitality-15",
+      "name": "Lounge Premium",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+      "image": "assets/img/themes/hospitality/hospitality-15.svg"
+    },
+    {
+      "id": "hospitality-16",
+      "name": "Hotel Vista",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Luxury \u2022 Calm \u2022 Booking Ready",
+      "image": "assets/img/themes/hospitality/hospitality-16.svg"
+    },
+    {
+      "id": "hospitality-17",
+      "name": "Chef Special",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Warm \u2022 Elegant \u2022 Hospitality",
+      "image": "assets/img/themes/hospitality/hospitality-17.svg"
+    },
+    {
+      "id": "hospitality-18",
+      "name": "Resort Bloom",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Restaurant \u2022 Rich \u2022 Inviting",
+      "image": "assets/img/themes/hospitality/hospitality-18.svg"
+    },
+    {
+      "id": "hospitality-19",
+      "name": "Guest House",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Resort \u2022 Premium \u2022 Clean",
+      "image": "assets/img/themes/hospitality/hospitality-19.svg"
+    },
+    {
+      "id": "hospitality-20",
+      "name": "Fine Dining",
+      "category": "hospitality",
+      "categoryLabel": "Hotel / Food",
+      "style": "Hotel \u2022 Beautiful \u2022 Comfortable",
+      "image": "assets/img/themes/hospitality/hospitality-20.svg"
+    },
+    {
+      "id": "product-01",
+      "name": "Product Launch",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Modern \u2022 Feature Focused \u2022 Tech",
+      "image": "assets/img/themes/product/product-01.svg"
+    },
+    {
+      "id": "product-02",
+      "name": "App Showcase",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Clean \u2022 Product \u2022 Conversion Ready",
+      "image": "assets/img/themes/product/product-02.svg"
+    },
+    {
+      "id": "product-03",
+      "name": "SaaS Focus",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "SaaS \u2022 Sharp \u2022 Minimal",
+      "image": "assets/img/themes/product/product-03.svg"
+    },
+    {
+      "id": "product-04",
+      "name": "Tech Product",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Launch \u2022 Smart \u2022 Professional",
+      "image": "assets/img/themes/product/product-04.svg"
+    },
+    {
+      "id": "product-05",
+      "name": "Gadget View",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+      "image": "assets/img/themes/product/product-05.svg"
+    },
+    {
+      "id": "product-06",
+      "name": "Software Pro",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Modern \u2022 Feature Focused \u2022 Tech",
+      "image": "assets/img/themes/product/product-06.svg"
+    },
+    {
+      "id": "product-07",
+      "name": "Feature Story",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Clean \u2022 Product \u2022 Conversion Ready",
+      "image": "assets/img/themes/product/product-07.svg"
+    },
+    {
+      "id": "product-08",
+      "name": "Product Flow",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "SaaS \u2022 Sharp \u2022 Minimal",
+      "image": "assets/img/themes/product/product-08.svg"
+    },
+    {
+      "id": "product-09",
+      "name": "Launch Page",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Launch \u2022 Smart \u2022 Professional",
+      "image": "assets/img/themes/product/product-09.svg"
+    },
+    {
+      "id": "product-10",
+      "name": "Smart App",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+      "image": "assets/img/themes/product/product-10.svg"
+    },
+    {
+      "id": "product-11",
+      "name": "Product Edge",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Modern \u2022 Feature Focused \u2022 Tech",
+      "image": "assets/img/themes/product/product-11.svg"
+    },
+    {
+      "id": "product-12",
+      "name": "Cloud Platform",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Clean \u2022 Product \u2022 Conversion Ready",
+      "image": "assets/img/themes/product/product-12.svg"
+    },
+    {
+      "id": "product-13",
+      "name": "Solution Demo",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "SaaS \u2022 Sharp \u2022 Minimal",
+      "image": "assets/img/themes/product/product-13.svg"
+    },
+    {
+      "id": "product-14",
+      "name": "Device Landing",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Launch \u2022 Smart \u2022 Professional",
+      "image": "assets/img/themes/product/product-14.svg"
+    },
+    {
+      "id": "product-15",
+      "name": "Tool Showcase",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+      "image": "assets/img/themes/product/product-15.svg"
+    },
+    {
+      "id": "product-16",
+      "name": "App Vision",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Modern \u2022 Feature Focused \u2022 Tech",
+      "image": "assets/img/themes/product/product-16.svg"
+    },
+    {
+      "id": "product-17",
+      "name": "Feature Stack",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Clean \u2022 Product \u2022 Conversion Ready",
+      "image": "assets/img/themes/product/product-17.svg"
+    },
+    {
+      "id": "product-18",
+      "name": "Product Vision",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "SaaS \u2022 Sharp \u2022 Minimal",
+      "image": "assets/img/themes/product/product-18.svg"
+    },
+    {
+      "id": "product-19",
+      "name": "Launch Studio",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Launch \u2022 Smart \u2022 Professional",
+      "image": "assets/img/themes/product/product-19.svg"
+    },
+    {
+      "id": "product-20",
+      "name": "Modern SaaS",
+      "category": "product",
+      "categoryLabel": "Product",
+      "style": "Product \u2022 Modern \u2022 Mobile Friendly",
+      "image": "assets/img/themes/product/product-20.svg"
+    },
+    {
+      "id": "minimal-01",
+      "name": "Minimal White",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Clean \u2022 Elegant",
+      "image": "assets/img/themes/minimal/minimal-01.svg"
+    },
+    {
+      "id": "minimal-02",
+      "name": "Clean Lines",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Simple \u2022 Spacious \u2022 Modern",
+      "image": "assets/img/themes/minimal/minimal-02.svg"
+    },
+    {
+      "id": "minimal-03",
+      "name": "Simple Studio",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Neutral \u2022 Quiet \u2022 Professional",
+      "image": "assets/img/themes/minimal/minimal-03.svg"
+    },
+    {
+      "id": "minimal-04",
+      "name": "Mono Style",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Premium \u2022 Focused",
+      "image": "assets/img/themes/minimal/minimal-04.svg"
+    },
+    {
+      "id": "minimal-05",
+      "name": "Blank Space",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Clean \u2022 White Space \u2022 Stylish",
+      "image": "assets/img/themes/minimal/minimal-05.svg"
+    },
+    {
+      "id": "minimal-06",
+      "name": "Neutral Frame",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Clean \u2022 Elegant",
+      "image": "assets/img/themes/minimal/minimal-06.svg"
+    },
+    {
+      "id": "minimal-07",
+      "name": "Minimal Prime",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Simple \u2022 Spacious \u2022 Modern",
+      "image": "assets/img/themes/minimal/minimal-07.svg"
+    },
+    {
+      "id": "minimal-08",
+      "name": "Quiet Design",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Neutral \u2022 Quiet \u2022 Professional",
+      "image": "assets/img/themes/minimal/minimal-08.svg"
+    },
+    {
+      "id": "minimal-09",
+      "name": "Soft Minimal",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Premium \u2022 Focused",
+      "image": "assets/img/themes/minimal/minimal-09.svg"
+    },
+    {
+      "id": "minimal-10",
+      "name": "Essential Layout",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Clean \u2022 White Space \u2022 Stylish",
+      "image": "assets/img/themes/minimal/minimal-10.svg"
+    },
+    {
+      "id": "minimal-11",
+      "name": "Linear View",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Clean \u2022 Elegant",
+      "image": "assets/img/themes/minimal/minimal-11.svg"
+    },
+    {
+      "id": "minimal-12",
+      "name": "Minimal Focus",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Simple \u2022 Spacious \u2022 Modern",
+      "image": "assets/img/themes/minimal/minimal-12.svg"
+    },
+    {
+      "id": "minimal-13",
+      "name": "Gentle Grid",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Neutral \u2022 Quiet \u2022 Professional",
+      "image": "assets/img/themes/minimal/minimal-13.svg"
+    },
+    {
+      "id": "minimal-14",
+      "name": "Pure Design",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Premium \u2022 Focused",
+      "image": "assets/img/themes/minimal/minimal-14.svg"
+    },
+    {
+      "id": "minimal-15",
+      "name": "Minimal Trust",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Clean \u2022 White Space \u2022 Stylish",
+      "image": "assets/img/themes/minimal/minimal-15.svg"
+    },
+    {
+      "id": "minimal-16",
+      "name": "Simple Business",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Clean \u2022 Elegant",
+      "image": "assets/img/themes/minimal/minimal-16.svg"
+    },
+    {
+      "id": "minimal-17",
+      "name": "Open Space",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Simple \u2022 Spacious \u2022 Modern",
+      "image": "assets/img/themes/minimal/minimal-17.svg"
+    },
+    {
+      "id": "minimal-18",
+      "name": "Clean Horizon",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Neutral \u2022 Quiet \u2022 Professional",
+      "image": "assets/img/themes/minimal/minimal-18.svg"
+    },
+    {
+      "id": "minimal-19",
+      "name": "Soft Corporate",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Minimal \u2022 Premium \u2022 Focused",
+      "image": "assets/img/themes/minimal/minimal-19.svg"
+    },
+    {
+      "id": "minimal-20",
+      "name": "Neutral Story",
+      "category": "minimal",
+      "categoryLabel": "Minimal",
+      "style": "Clean \u2022 White Space \u2022 Stylish",
+      "image": "assets/img/themes/minimal/minimal-20.svg"
+    }
+  ]
+}

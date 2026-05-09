@@ -1,0 +1,67 @@
+
+/* V47 Comfortaa font applied globally */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+:root{
+  --wdlk-main-font: "Comfortaa", "Noto Sans Sinhala", "Iskoola Pota", "Malithi Web", Arial, sans-serif;
+}
+
+html,
+body,
+body *,
+button,
+input,
+select,
+textarea,
+option,
+label,
+a,
+p,
+span,
+strong,
+small,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+td,
+th,
+div{
+  font-family: var(--wdlk-main-font) !important;
+}
+
+input::placeholder,
+textarea::placeholder{
+  font-family: var(--wdlk-main-font) !important;
+}
+
+body{
+  font-family: var(--wdlk-main-font) !important;
+  font-optical-sizing: auto;
+}
+
+.wdlk-glass-btn,
+.wdlk-glass-btn *,
+.auth-btn,
+.auth-btn *,
+.theme-card,
+.theme-card *,
+.option-card,
+.option-card *,
+.invoice-card,
+.invoice-card *,
+.dashboard-card,
+.dashboard-card *,
+.ai-step-title{
+  font-family: var(--wdlk-main-font) !important;
+}
+
+/* Keep Sinhala glyphs readable through fallback when Comfortaa does not include Sinhala characters */
+html[lang="si"],
+html[lang="si"] body,
+html[lang="si"] body *{
+  font-family: "Comfortaa", "Noto Sans Sinhala", "Iskoola Pota", "Malithi Web", Arial, sans-serif !important;
+}

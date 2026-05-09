@@ -1,0 +1,246 @@
+@import url("comfortaa-font.css");
+
+/* V40 global glass button system */
+.wdlk-glass-btn,
+button.wdlk-glass-btn,
+input[type="submit"].wdlk-glass-btn,
+input[type="button"].wdlk-glass-btn,
+input[type="reset"].wdlk-glass-btn,
+a.wdlk-glass-btn{
+  --btn-bg-1: rgba(47,128,237,.30);
+  --btn-bg-2: rgba(255,79,123,.20);
+  --btn-border: rgba(255,255,255,.24);
+  --btn-glow: rgba(47,128,237,.26);
+  --btn-text: #ffffff;
+  position: relative !important;
+  isolation: isolate;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 13px 22px !important;
+  border-radius: 18px !important;
+  border: 1px solid var(--btn-border) !important;
+  background:
+    linear-gradient(135deg, var(--btn-bg-1), var(--btn-bg-2)) !important;
+  color: var(--btn-text) !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+  letter-spacing: .01em;
+  box-shadow:
+    0 16px 34px rgba(4,12,35,.18),
+    0 0 0 1px rgba(255,255,255,.04) inset,
+    0 12px 30px var(--btn-glow) !important;
+  backdrop-filter: blur(14px) saturate(135%);
+  -webkit-backdrop-filter: blur(14px) saturate(135%);
+  transition:
+    transform .32s cubic-bezier(.2,.7,.2,1),
+    box-shadow .34s ease,
+    border-color .34s ease,
+    filter .34s ease,
+    background .34s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+.wdlk-glass-btn::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius: inherit;
+  background:
+    radial-gradient(240px circle at var(--mx, 50%) var(--my, 50%), rgba(255,255,255,.22), transparent 36%),
+    linear-gradient(180deg, rgba(255,255,255,.18), rgba(255,255,255,.04));
+  opacity:.9;
+  z-index:-1;
+}
+.wdlk-glass-btn::after{
+  content:"";
+  position:absolute;
+  top:-60%;
+  bottom:-60%;
+  width:46%;
+  left:-60%;
+  transform: rotate(18deg);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.34), transparent);
+  opacity:.0;
+  transition: left .6s ease, opacity .4s ease;
+}
+.wdlk-glass-btn:hover,
+.wdlk-glass-btn:focus-visible{
+  transform: translateY(-4px) scale(1.02) !important;
+  box-shadow:
+    0 24px 48px rgba(5,14,42,.25),
+    0 0 0 1px rgba(255,255,255,.08) inset,
+    0 18px 40px rgba(47,128,237,.24),
+    0 18px 42px rgba(255,79,123,.16) !important;
+  border-color: rgba(255,255,255,.34) !important;
+  filter: saturate(1.08);
+}
+.wdlk-glass-btn:hover::after,
+.wdlk-glass-btn:focus-visible::after{
+  left:120%;
+  opacity:.9;
+}
+.wdlk-glass-btn:active{
+  transform: translateY(-1px) scale(.988) !important;
+}
+.wdlk-glass-btn.is-red{
+  --btn-bg-1: rgba(255,79,123,.34);
+  --btn-bg-2: rgba(255,123,91,.18);
+  --btn-glow: rgba(255,79,123,.24);
+}
+.wdlk-glass-btn.is-blue{
+  --btn-bg-1: rgba(47,128,237,.34);
+  --btn-bg-2: rgba(86,204,242,.18);
+  --btn-glow: rgba(47,128,237,.24);
+}
+.wdlk-glass-btn.is-light{
+  --btn-bg-1: rgba(255,255,255,.74);
+  --btn-bg-2: rgba(242,247,255,.70);
+  --btn-border: rgba(58,97,177,.15);
+  --btn-text: #12306f;
+  --btn-glow: rgba(47,128,237,.18);
+}
+.wdlk-glass-btn.is-outline{
+  background: linear-gradient(135deg, rgba(255,255,255,.10), rgba(255,255,255,.05)) !important;
+}
+.wdlk-glass-btn .btn-icon{
+  width: 18px;
+  height: 18px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+.wdlk-floaty{
+  transition: transform .28s ease, box-shadow .28s ease;
+}
+.wdlk-floaty:hover{
+  transform: translateY(-5px);
+}
+@media (max-width: 767px){
+  .wdlk-glass-btn{
+    min-height: 44px;
+    padding: 12px 18px !important;
+    border-radius: 16px !important;
+    font-size: 14px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .wdlk-glass-btn,
+  .wdlk-glass-btn::after,
+  .wdlk-floaty{
+    transition:none !important;
+  }
+}
+
+
+/* V42: restore strong visible button colors while keeping modern glass shine */
+.wdlk-glass-btn,
+button.wdlk-glass-btn,
+input[type="submit"].wdlk-glass-btn,
+input[type="button"].wdlk-glass-btn,
+input[type="reset"].wdlk-glass-btn,
+a.wdlk-glass-btn{
+  --btn-bg-1:#1d5cff;
+  --btn-bg-2:#0b43d8;
+  --btn-border:rgba(29,92,255,.38);
+  --btn-glow:rgba(29,92,255,.32);
+  color:#ffffff !important;
+  background:linear-gradient(135deg,var(--btn-bg-1),var(--btn-bg-2)) !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  box-shadow:
+    0 16px 34px rgba(29,92,255,.24),
+    0 0 0 1px rgba(255,255,255,.10) inset !important;
+}
+.wdlk-glass-btn.is-blue{
+  --btn-bg-1:#1d5cff;
+  --btn-bg-2:#0b43d8;
+  --btn-border:rgba(29,92,255,.42);
+  --btn-glow:rgba(29,92,255,.32);
+}
+.wdlk-glass-btn.is-red{
+  --btn-bg-1:#ff3131;
+  --btn-bg-2:#d90d0d;
+  --btn-border:rgba(255,49,49,.42);
+  --btn-glow:rgba(255,49,49,.30);
+}
+.wdlk-glass-btn.is-light,
+.wdlk-glass-btn.is-outline{
+  --btn-bg-1:#ffffff;
+  --btn-bg-2:#eef4ff;
+  --btn-border:rgba(29,92,255,.22);
+  --btn-text:#12306f;
+  color:#12306f !important;
+  background:linear-gradient(135deg,#ffffff,#eef4ff) !important;
+  box-shadow:0 12px 26px rgba(13,31,89,.10),0 0 0 1px rgba(29,92,255,.08) inset !important;
+}
+.wdlk-glass-btn:hover,
+.wdlk-glass-btn:focus-visible{
+  background:linear-gradient(135deg,#ff3131,#d90d0d) !important;
+  color:#ffffff !important;
+  border-color:rgba(255,49,49,.46) !important;
+  box-shadow:
+    0 24px 48px rgba(255,49,49,.26),
+    0 0 0 1px rgba(255,255,255,.12) inset !important;
+}
+.wdlk-glass-btn.is-red:hover,
+.wdlk-glass-btn.is-red:focus-visible{
+  background:linear-gradient(135deg,#1d5cff,#0b43d8) !important;
+  border-color:rgba(29,92,255,.46) !important;
+  box-shadow:
+    0 24px 48px rgba(29,92,255,.28),
+    0 0 0 1px rgba(255,255,255,.12) inset !important;
+}
+.wdlk-glass-btn.is-light:hover,
+.wdlk-glass-btn.is-outline:hover,
+.wdlk-glass-btn.is-light:focus-visible,
+.wdlk-glass-btn.is-outline:focus-visible{
+  background:linear-gradient(135deg,#1d5cff,#0b43d8) !important;
+  color:#ffffff !important;
+}
+.theme-mini-btn.choose.wdlk-glass-btn{
+  background:linear-gradient(135deg,#1d5cff,#0b43d8) !important;
+  color:#ffffff !important;
+}
+.theme-card.selected .theme-mini-btn.choose.wdlk-glass-btn{
+  background:linear-gradient(135deg,#159947,#1d5cff) !important;
+  color:#ffffff !important;
+}
+
+
+/* V43 button text visibility */
+.wdlk-glass-btn,
+.wdlk-glass-btn *,
+button.wdlk-glass-btn,
+button.wdlk-glass-btn *,
+a.wdlk-glass-btn,
+a.wdlk-glass-btn *{
+  color:#ffffff !important;
+  font-weight:500 !important;
+  text-shadow:none !important;
+}
+.wdlk-glass-btn.is-light,
+.wdlk-glass-btn.is-light *,
+.wdlk-glass-btn.is-outline,
+.wdlk-glass-btn.is-outline *{
+  color:#12306f !important;
+}
+.wdlk-glass-btn.is-light:hover,
+.wdlk-glass-btn.is-light:hover *,
+.wdlk-glass-btn.is-outline:hover,
+.wdlk-glass-btn.is-outline:hover *{
+  color:#ffffff !important;
+}
+.details-form .form-actions .continue-btn,
+.details-form .form-actions .continue-btn *,
+.details-form .form-actions .back-btn:hover,
+.details-form .form-actions .back-btn:hover *{
+  color:#ffffff !important;
+  font-weight:500 !important;
+}
+.details-form .form-actions .back-btn,
+.details-form .form-actions .back-btn *{
+  font-weight:500 !important;
+}

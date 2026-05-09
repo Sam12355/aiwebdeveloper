@@ -1,0 +1,11 @@
+Options -Indexes
+
+# Prevent script execution from uploaded files
+<FilesMatch "\.(php|php5|phtml|phar|cgi|pl|py|sh|exe|bat|cmd|js|html|htm|svg)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+Header set X-Content-Type-Options "nosniff"
+Header set Content-Disposition "attachment"
+</IfModule>

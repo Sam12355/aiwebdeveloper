@@ -1,0 +1,29 @@
+Webdeveloper.lk V27 Static Test Run
+Generated: 2026-05-02T12:30:47.543244
+
+PASS: Admin section exists: overview
+PASS: Admin nav/hash target exists: overview
+PASS: Admin section exists: projects
+PASS: Admin nav/hash target exists: projects
+PASS: Admin section exists: payments
+PASS: Admin nav/hash target exists: payments
+PASS: Admin section exists: staff
+PASS: Admin nav/hash target exists: staff
+PASS: Admin section exists: project-update
+PASS: Admin nav/hash target exists: project-update
+PASS: Admin section exists: requests
+PASS: Admin nav/hash target exists: requests
+PASS: Admin section exists: messages
+PASS: Admin nav/hash target exists: messages
+PASS: Admin section exists: uploads
+PASS: Admin nav/hash target exists: uploads
+PASS: Admin section exists: notifications
+PASS: Admin nav/hash target exists: notifications
+PASS: Admin direct section links use hash tab router
+PASS: Admin includes realtime notification script
+PASS: Customer dashboard includes realtime notification script
+PASS: Admin notification renderer exists
+PASS: Customer notification renderer exists
+PASS: Admin can send customer notifications
+PASS: Customer actions can send admin notifications
+PASS: BroadcastChannel realtime support exists

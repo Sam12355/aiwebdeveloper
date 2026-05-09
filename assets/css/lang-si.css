@@ -1,0 +1,17 @@
+
+/* Sinhala language support */
+html[lang="si"], html[lang="si"] body{
+  font-family: "Noto Sans Sinhala", "Iskoola Pota", "Malithi Web", "Arial", system-ui, sans-serif;
+}
+html[lang="si"] h1,
+html[lang="si"] h2,
+html[lang="si"] h3,
+html[lang="si"] h4,
+html[lang="si"] strong,
+html[lang="si"] button,
+html[lang="si"] input,
+html[lang="si"] textarea,
+html[lang="si"] select,
+html[lang="si"] a{
+  font-family: "Noto Sans Sinhala", "Iskoola Pota", "Malithi Web", "Arial", system-ui, sans-serif;
+}
