@@ -3,10 +3,17 @@ declare(strict_types=1);
 require_once __DIR__ . '/../security.php';
 require_once __DIR__ . '/../db.php';
 require_once __DIR__ . '/../session.php';
-require_admin();
 
 $data = input_json();
 $action = $data['action'] ?? ($_SERVER['REQUEST_METHOD'] === 'POST' ? 'save' : 'list');
+
+// Writes require admin; reads (list) are public so customer pages can sync pricing
+if (in_array($action, ['save', 'delete'], true)) {
+    start_secure_session();
+    if (empty($_SESSION['is_admin'])) {
+        json_response(['success' => false, 'message' => 'Admin access required'], 403);
+    }
+}
 
 function pkg_value(array $data, string $key, string $default = ''): string {
     return isset($data[$key]) ? trim((string)$data[$key]) : $default;
