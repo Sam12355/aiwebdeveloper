@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/css/sync-automation.css" />
   <link rel="stylesheet" href="assets/css/v52-admin-sync.css" />
   <link rel="stylesheet" href="assets/css/v54-price-sync.css" />
+  <link rel="stylesheet" href="assets/css/messaging.css" />
 </head>
 <body class="admin-body">
   <div class="admin-shell">
@@ -280,26 +281,32 @@
         </section>
 
         <section id="messages" class="admin-section">
-          <div class="admin-grid">
-            <div class="admin-card">
-              <h2>Send Customer Message</h2>
-              <form class="admin-form" id="adminMessageForm">
-                <label>Project ID
-                  <input id="adminMessageProject" type="text" readonly>
-                </label>
-                <label>Subject
-                  <input id="adminMessageSubject" type="text" required>
-                </label>
-                <label>Message
-                  <textarea id="adminMessageText" required></textarea>
-                </label>
-                <button class="admin-submit" type="submit">Save Message</button>
+          <div class="admin-msg-layout">
+            <div class="admin-card admin-msg-inbox">
+              <h2>Customer Inbox</h2>
+              <div class="msg-project-list" id="adminMsgProjectList">
+                <div class="msg-loading">Loading conversations...</div>
+              </div>
+            </div>
+            <div class="admin-card admin-msg-thread-panel">
+              <div class="admin-msg-thread-header">
+                <h3 id="adminMsgThreadTitle">Select a conversation</h3>
+                <span id="adminMsgThreadMeta"></span>
+              </div>
+              <div class="message-thread" id="adminMessageThread">
+                <div class="msg-empty">Select a project from the inbox to view messages.</div>
+              </div>
+              <form class="message-compose-form" id="adminSendMessageForm">
+                <div class="message-compose">
+                  <input type="hidden" id="adminMsgProjectId">
+                  <input type="hidden" id="adminMsgProjectEmail">
+                  <input type="hidden" id="adminMsgProjectKey">
+                  <textarea id="adminMessageInput" placeholder="Reply to customer..." rows="3" disabled></textarea>
+                  <button type="submit" class="msg-send-btn" disabled>Send Reply</button>
+                </div>
+                <p class="msg-send-status" id="adminMsgStatus"></p>
               </form>
             </div>
-            <aside class="admin-card">
-              <h3>Sent Messages</h3>
-              <div class="request-list" id="messageList"></div>
-            </aside>
           </div>
         </section>
 
@@ -347,6 +354,7 @@
 </footer>
 
   <script src="assets/js/admin.js"></script>
+  <script src="assets/js/messaging.js"></script>
   <script src="assets/js/admin-enhancements.js"></script>
 
   <script src="assets/js/lang-switch.js"></script>

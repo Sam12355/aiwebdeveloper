@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="assets/css/sync-automation.css" />
   <link rel="stylesheet" href="assets/css/v52-admin-sync.css" />
   <link rel="stylesheet" href="assets/css/v54-price-sync.css" />
+  <link rel="stylesheet" href="assets/css/messaging.css" />
 </head>
 <body class="ai-step-pages dashboard-body">
   <div class="dashboard-shell">
@@ -233,11 +234,20 @@
 
         <section id="messages" class="dashboard-section">
           <div class="dash-card">
-            <h2>Messages</h2>
-            <div class="messages-list">
-              <div class="message-item"><span class="message-avatar">WD</span><div><strong>ecommercesrilanka.lk Team</strong><p>Your payment is confirmed. We have started your website planning.</p></div><span class="message-time">Just now</span></div>
-              <div class="message-item"><span class="message-avatar">AI</span><div><strong>System Update</strong><p>We will contact you during the progress and update the dashboard at key stages.</p></div><span class="message-time">Today</span></div>
+            <div style="margin-bottom:18px">
+              <h2 style="margin-bottom:4px">Messages</h2>
+              <p style="color:#5c6b87;margin:0">Your conversation with the ecommercesrilanka.lk team.</p>
             </div>
+            <div class="message-thread" id="customerMessageThread">
+              <div class="msg-loading">Loading messages...</div>
+            </div>
+            <form class="message-compose-form" id="customerSendMessageForm">
+              <div class="message-compose">
+                <textarea id="customerMessageInput" placeholder="Type your message to the team..." rows="3"></textarea>
+                <button type="submit" class="msg-send-btn">Send Message</button>
+              </div>
+              <p class="msg-send-status" id="customerMsgStatus"></p>
+            </form>
           </div>
         </section>
 
@@ -354,6 +364,7 @@
   <script src="assets/js/realtime-notifications.js"></script>
   <script src="assets/js/dashboard.js"></script>
   <script src="assets/js/backend-client.js"></script>
+  <script src="assets/js/messaging.js"></script>
 
 <footer class="wd-common-footer">
   <div class="wd-footer-inner">
