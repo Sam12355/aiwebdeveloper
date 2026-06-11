@@ -1,0 +1,13 @@
+# Runtime-generated customer uploads — never block cPanel Git deployment
+/backend/uploads/*
+
+# Keep the uploads folder itself in the repo
+!/backend/uploads/.gitkeep
+
+# This ignore file is delivered to the server out-of-band; ignore it there too
+/.gitignore
+
+# Deployment helper / diagnostic scripts
+/tmp_gitcheck.php
+/tmp_gitmanifest.txt
+/gitfix.php
