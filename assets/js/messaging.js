@@ -46,6 +46,7 @@
     if (!thread && !form) return;
 
     var lastCount = -1;
+    var _loadInFlight = false;
 
     function renderThread(msgs) {
       if (!thread) return;
@@ -74,28 +75,33 @@
 
     function load() {
       if (!BASE) { renderThread(storageMsgs()); return; }
+      if (_loadInFlight) return;
+      _loadInFlight = true;
 
-      // Always send projectKey + invoiceNo so the backend can find the project even without a session
       var ids = projectIds();
       var qs  = [];
       if (ids.projectKey) qs.push('projectKey=' + encodeURIComponent(ids.projectKey));
       if (ids.invoiceNo)  qs.push('invoiceNo='  + encodeURIComponent(ids.invoiceNo));
       var url = BASE + 'messages-get.php' + (qs.length ? '?' + qs.join('&') : '');
 
-      fetch(url, { credentials: 'include' })
+      var ctrl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+      var timer = ctrl ? setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 8000) : null;
+
+      fetch(url, { credentials: 'include', signal: ctrl ? ctrl.signal : undefined })
         .then(function (r) { return r.json(); })
         .then(function (data) {
+          if (timer) clearTimeout(timer);
+          _loadInFlight = false;
           if (data.success && Array.isArray(data.messages)) {
             if (data.messages.length !== lastCount) {
               lastCount = data.messages.length;
               renderThread(data.messages);
             }
           } else {
-            // Session-less and no project found in DB — show localStorage
-            if (thread.querySelector('.msg-loading')) renderThread(storageMsgs());
+            if (thread && thread.querySelector('.msg-loading')) renderThread(storageMsgs());
           }
         })
-        .catch(function () { renderThread(storageMsgs()); });
+        .catch(function () { if (timer) clearTimeout(timer); _loadInFlight = false; renderThread(storageMsgs()); });
     }
 
     if (form) {
@@ -294,15 +300,22 @@
     }
 
     // ---- Thread ----
+    var _threadInFlight = false;
     function loadThread(pid) {
       if (!pid) return;
       if (!BASE) { loadThreadStorage(); return; }
-      fetch(BASE + 'messages-get.php?projectId=' + encodeURIComponent(pid), { credentials: 'include' })
+      if (_threadInFlight) return;
+      _threadInFlight = true;
+      var ctrl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+      var timer = ctrl ? setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 8000) : null;
+      fetch(BASE + 'messages-get.php?projectId=' + encodeURIComponent(pid), { credentials: 'include', signal: ctrl ? ctrl.signal : undefined })
         .then(function (r) { return r.json(); })
         .then(function (data) {
+          if (timer) clearTimeout(timer);
+          _threadInFlight = false;
           if (data.success && Array.isArray(data.messages)) renderThread(data.messages);
         })
-        .catch(loadThreadStorage);
+        .catch(function () { if (timer) clearTimeout(timer); _threadInFlight = false; loadThreadStorage(); });
     }
 
     function loadThreadStorage() {
