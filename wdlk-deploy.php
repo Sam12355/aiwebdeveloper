@@ -24,11 +24,15 @@ if (!file_exists($git)) $git = trim(shell_exec('which git 2>/dev/null') ?: '');
 if (!$git) { echo "ERROR: git not found\n"; exit(1); }
 echo "git: $git\n";
 
-// Step 2: Hard-reset to HEAD (clears any local SFTP-uploaded file that blocks pull)
+// Step 2: Hard-reset tracked files to HEAD
 $reset = shell_exec("cd " . escapeshellarg($root) . " && $git reset --hard HEAD 2>&1");
 echo "reset: $reset\n";
 
-// Step 3: Pull from origin
+// Step 3: Remove untracked files that would block the pull (gitignored files like uploads/ are safe)
+$clean = shell_exec("cd " . escapeshellarg($root) . " && $git clean -fd 2>&1");
+echo "clean: $clean\n";
+
+// Step 4: Pull from origin
 $pull = shell_exec("cd " . escapeshellarg($root) . " && $git pull origin master 2>&1");
 echo "pull:\n$pull\n";
 
