@@ -8,6 +8,5 @@
 /.gitignore
 
 # Deployment helper / diagnostic scripts
-/tmp_gitcheck.php
-/tmp_gitmanifest.txt
+/tmp_*
 /gitfix.php

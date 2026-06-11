@@ -185,14 +185,24 @@
   function backendApi(){
     return isSn ? '../backend/api/v52-sync.php' : 'backend/api/v52-sync.php';
   }
+  var _syncInFlight = false;
   function syncBackend(project){
     if(location.protocol === 'file:') return Promise.resolve(null);
+    // Never let sync requests pile up: skip if one is already running.
+    // This prevents the connection pool from being exhausted (ERR_INSUFFICIENT_RESOURCES)
+    // if the backend is ever slow.
+    if(_syncInFlight) return Promise.resolve(null);
+    _syncInFlight = true;
+    var ctrl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+    var timer = ctrl ? setTimeout(function(){ try{ ctrl.abort(); }catch(e){} }, 8000) : null;
     return fetch(backendApi(), {
       method:'POST',
       headers:{'Content-Type':'application/json'},
       credentials:'include',
-      body:JSON.stringify(project)
-    }).then(r => r.ok ? r.json() : Promise.reject(r));
+      body:JSON.stringify(project),
+      signal: ctrl ? ctrl.signal : undefined
+    }).then(r => r.ok ? r.json() : Promise.reject(r))
+      .finally(() => { if(timer) clearTimeout(timer); _syncInFlight = false; });
   }
   function saveProject(reason){
     const p = collect(reason);

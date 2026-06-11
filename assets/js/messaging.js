@@ -137,10 +137,13 @@
 
         if (BASE) {
           var ids  = projectIds();
+          var ctrl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+          var timer = ctrl ? setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 12000) : null;
           fetch(BASE + 'customer-send-message.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
+            signal: ctrl ? ctrl.signal : undefined,
             body: JSON.stringify({
               message:    text,
               subject:    'Customer Message',
@@ -150,13 +153,14 @@
           })
             .then(function (r) { return r.json(); })
             .then(function (data) {
+              if (timer) clearTimeout(timer);
               if (data.success) {
                 // Remove the locally-stored copy (now in DB), avoid duplicates on next load
                 localStorage.removeItem('wdlk_customer_messages');
               }
               finish(data.success, data.success ? 'Message sent.' : (data.error || 'Error sending.'));
             })
-            .catch(function () { finish(true, 'Message saved locally.'); });
+            .catch(function () { if (timer) clearTimeout(timer); finish(true, 'Message saved locally.'); });
         } else {
           finish(true, 'Message saved.');
         }

@@ -3,7 +3,7 @@
 // Update these values after creating the MySQL database in cPanel.
 declare(strict_types=1);
 
-define('DB_HOST', '69.57.172.117');
+define('DB_HOST', 'localhost');
 define('DB_NAME', 'webdeveloper_aiwebdeveloper');
 define('DB_USER', 'webdeveloper_aiwebdeveloper');
 define('DB_PASS', 'aiwebdeveloper12355');

@@ -11,6 +11,8 @@ function db(): PDO {
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
         PDO::ATTR_EMULATE_PREPARES => false,
+        // Fail fast instead of hanging the request (and the browser) if the DB is unreachable
+        PDO::ATTR_TIMEOUT => 5,
     ]);
     return $pdo;
 }
