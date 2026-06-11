@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -af . /home/webdeveloper/public_html
+    - export DEPLOYPATH=/home/webdeveloper/public_html
+    - /bin/cp -af . $DEPLOYPATH
