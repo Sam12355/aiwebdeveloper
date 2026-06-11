@@ -1,5 +1,34 @@
 <?php
 declare(strict_types=1);
+
+// ---------------------------------------------------------------------------
+// Stampede guard: cap how many copies of this endpoint run at once. A client
+// running stale JS (no in-flight guard) can fire hundreds of concurrent
+// requests over HTTP/3 and exhaust every PHP worker. We hold one of a small
+// number of non-blocking file locks; if none are free, return immediately
+// WITHOUT touching the database. This makes it physically impossible for this
+// endpoint to wedge the site, regardless of client behaviour.
+// ---------------------------------------------------------------------------
+$__wdlk_lock_handle = null;  // MUST stay in scope for the whole script so the lock is held
+$__wdlk_got_slot = false;
+$__wdlk_lock_dir = sys_get_temp_dir();
+for ($__i = 0; $__i < 6; $__i++) {
+    $__fp = @fopen($__wdlk_lock_dir . '/wdlk_v52_lock_' . $__i, 'c');
+    if ($__fp && @flock($__fp, LOCK_EX | LOCK_NB)) {
+        $__wdlk_lock_handle = $__fp;  // released automatically when the script ends
+        $__wdlk_got_slot = true;
+        break;
+    }
+    if ($__fp) { @fclose($__fp); }
+}
+if (!$__wdlk_got_slot) {
+    // Every slot busy → shed load instantly without touching the DB.
+    header('Content-Type: application/json; charset=utf-8');
+    http_response_code(200);
+    echo json_encode(['success' => true, 'throttled' => true]);
+    exit;
+}
+
 require_once __DIR__ . '/../security.php';
 require_once __DIR__ . '/../db.php';
 require_once __DIR__ . '/../session.php';
