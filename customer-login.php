@@ -150,39 +150,26 @@
 
         if(!input){ errorEl.textContent='Please enter your phone number or email.'; errorEl.classList.add('show'); return; }
 
-        // If already logged in and no input mismatch — direct redirect
-        if(localStorage.getItem('wdlk_logged_in') === 'yes'){
+        // Always hit the backend first: it sets the PHP session (customer_project_id)
+        // and returns the canonical project (projectKey/invoiceNo) so message history and
+        // live project data load on EVERY login, including returning users.
+        try{
+          const data = await lookupBackend(input);
+          saveSession(data.customer, data.project);
+          window.location.href = 'customer-dashboard.php';
+          return;
+        }catch(err){
+          // Backend unreachable or no DB project — fall back to local data if it matches
           const customer = JSON.parse(localStorage.getItem('wdlk_customer') || '{}');
-          const phone = clean(customer.contactNumber);
-          const email = norm(customer.email);
+          const step1 = JSON.parse(localStorage.getItem('wdlk_step1') || '{}');
+          const storedPhone = clean(customer.contactNumber || step1.contactNumber || step1.phone || '');
+          const storedEmail = norm(customer.email || step1.email || '');
           const inp = norm(input);
           const inpPhone = clean(input);
-          if(inp === email || (inpPhone && inpPhone === phone)){
+          if((storedEmail && inp === storedEmail) || (storedPhone && inpPhone && inpPhone === storedPhone)){
             saveSession(customer, null);
             window.location.href = 'customer-dashboard.php';
-            return;
-          }
-        }
-
-        // Look up across all stored customer data
-        const customer = JSON.parse(localStorage.getItem('wdlk_customer') || '{}');
-        const step1 = JSON.parse(localStorage.getItem('wdlk_step1') || '{}');
-
-        const storedPhone = clean(customer.contactNumber || step1.contactNumber || step1.phone || '');
-        const storedEmail = norm(customer.email || step1.email || '');
-
-        const inp = norm(input);
-        const inpPhone = clean(input);
-
-        if((storedEmail && inp === storedEmail) || (storedPhone && inpPhone && inpPhone === storedPhone)){
-          saveSession(customer, null);
-          window.location.href = 'customer-dashboard.php';
-        } else {
-          try{
-            const data = await lookupBackend(input);
-            saveSession(data.customer, data.project);
-            window.location.href = 'customer-dashboard.php';
-          }catch(err){
+          } else {
             errorEl.textContent = err.message || 'No project found for this phone or email. Please check and try again.';
             errorEl.classList.add('show');
           }

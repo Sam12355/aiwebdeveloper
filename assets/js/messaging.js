@@ -173,7 +173,33 @@
       });
     }
 
-    load();
+    // If the project identifiers are missing (e.g. returning login that skipped the
+    // backend), recover them from the customer's email/phone so history still loads.
+    function ensureIdsThenLoad() {
+      var ids = projectIds();
+      if (!BASE || ids.projectKey || ids.invoiceNo) { load(); return; }
+      var cust = {};
+      try { cust = JSON.parse(localStorage.getItem('wdlk_customer') || '{}'); } catch (e) {}
+      var loginId = cust.email || cust.contactNumber || '';
+      if (!loginId) { load(); return; }
+      fetch(BASE + 'customer-lookup.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ login: loginId })
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (d && d.success && d.project) {
+            if (d.project.projectKey) localStorage.setItem('wdlk_project_key', d.project.projectKey);
+            if (d.project.invoiceNo)  localStorage.setItem('wdlk_invoice_number', d.project.invoiceNo);
+          }
+          load();
+        })
+        .catch(function () { load(); });
+    }
+
+    ensureIdsThenLoad();
     setInterval(load, 6000);
   }
 
