@@ -354,16 +354,16 @@
 </footer>
 
   <script src="assets/js/admin.js"></script>
-  <script src="assets/js/messaging.js"></script>
+  <script src="assets/js/messaging.js?v=<?php echo @filemtime(__DIR__ . '/assets/js/messaging.js'); ?>"></script>
   <script src="assets/js/admin-enhancements.js"></script>
 
   <script src="assets/js/lang-switch.js"></script>
   <script src="assets/js/data-recorder.js"></script>
-  <script src="assets/js/v52-system-sync.js"></script>
+  <script src="assets/js/v52-system-sync.js?v=<?php echo @filemtime(__DIR__ . '/assets/js/v52-system-sync.js'); ?>"></script>
   <script src="assets/js/automation-sync.js"></script>
   <script src="assets/js/v52-admin-manager.js"></script>
   <script src="assets/js/v53-admin-ux.js"></script>
-  <script src="assets/js/v54-price-sync.js"></script>
+  <script src="assets/js/v54-price-sync.js?v=<?php echo @filemtime(__DIR__ . '/assets/js/v54-price-sync.js'); ?>"></script>
   <script src="assets/js/admin-db-sync.js"></script>
 </body>
 </html>

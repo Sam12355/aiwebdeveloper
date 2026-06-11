@@ -364,7 +364,7 @@
   <script src="assets/js/realtime-notifications.js"></script>
   <script src="assets/js/dashboard.js"></script>
   <script src="assets/js/backend-client.js"></script>
-  <script src="assets/js/messaging.js"></script>
+  <script src="assets/js/messaging.js?v=<?php echo @filemtime(__DIR__ . '/assets/js/messaging.js'); ?>"></script>
 
 <footer class="wd-common-footer">
   <div class="wd-footer-inner">
@@ -402,8 +402,8 @@
   <script src="assets/js/lang-switch.js"></script>
   <script src="assets/js/interactive-ui.js"></script>
   <script src="assets/js/data-recorder.js"></script>
-  <script src="assets/js/v52-system-sync.js"></script>
+  <script src="assets/js/v52-system-sync.js?v=<?php echo @filemtime(__DIR__ . '/assets/js/v52-system-sync.js'); ?>"></script>
   <script src="assets/js/automation-sync.js"></script>
-  <script src="assets/js/v54-price-sync.js"></script>
+  <script src="assets/js/v54-price-sync.js?v=<?php echo @filemtime(__DIR__ . '/assets/js/v54-price-sync.js'); ?>"></script>
 </body>
 </html>
